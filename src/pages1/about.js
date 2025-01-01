@@ -1,9 +1,10 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import Next from '../components/Next.jsx'; // Import the Home component
+
+import About from '../components/About.jsx';
 
 // Hydrate the Home component
 ReactDOM.hydrate(
-  <Next />,
+  <About />,
   document.getElementById('root') // This matches the placeholder div in home.html
 );

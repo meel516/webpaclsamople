@@ -1,6 +1,6 @@
 import React, { useEffect } from "react";
 
-const Next = () => {
+const About = () => {
   useEffect(()=>{
 alert("hello")
   },[])
@@ -9,4 +9,4 @@ alert("hello")
   }}>Welcome to the Next Page!</h1>;
 };
 
-export default Next;
+export default About;

@@ -1,12 +1,13 @@
-import React, { useEffect } from "react";
+import React, { useEffect, useState } from "react";
 
 const Next = () => {
   useEffect(()=>{
 alert("hello")
   },[])
+  let [count,setCount] =useState(0)
   return <h1 onClick={()=>{
-    alert("hi saleem")
-  }}>Welcome to the Next Page!</h1>;
+   setCount(prev=>prev+1)
+  }}>Welcome to the Next Page! count is {count}</h1>;
 };
 
 export default Next;
